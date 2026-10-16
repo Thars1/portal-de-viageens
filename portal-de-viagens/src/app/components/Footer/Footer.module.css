@@ -1,0 +1,11 @@
+.footer{
+    background-color: #EC4D25 ;
+    text-align: center;
+    padding: 1rem;
+    color: #ccc;
+}
+.footer__texto{
+    margin: 0px;
+    font-size: 0.875rem;
+    color: #2BCFCE;
+}

@@ -1,0 +1,20 @@
+.header{
+    background-color: #EC4D25;
+    padding: 1rem 2rem;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    color:#2BCFCE;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}   
+.header__nav a{
+    color:#2BCFCE;
+    text-decoration: none;
+    margin-left: 1rem ;
+}

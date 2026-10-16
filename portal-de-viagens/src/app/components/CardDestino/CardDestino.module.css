@@ -1,0 +1,27 @@
+.card{
+    width: 21rem;
+    height: 500px;
+    border-radius: 1rem;
+    background-color: #FAFAFA;
+    padding: 1rem;
+    
+}
+
+.card__titulo{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+.card__img{
+    margin-left: -5%;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.125rem;
+}
+.card__texto{
+    margin-top: 1.5rem;
+    font-size: 1.75rem;
+    text-align: justify;
+}

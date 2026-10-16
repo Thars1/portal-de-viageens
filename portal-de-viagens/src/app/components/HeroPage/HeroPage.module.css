@@ -1,0 +1,35 @@
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imagens/imagem-hero.jpg");
+    height: 85vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__titulo{
+    font-size: 2.5rem;
+    color: white;
+}
+.hero__texto{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.hero__div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.botao{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    color: #EC4D25;
+}
