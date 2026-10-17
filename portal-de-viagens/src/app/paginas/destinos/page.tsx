@@ -3,6 +3,7 @@ import {viagens } from "@/lib/viagens";
 import styles from './Destinos.module.css'
 const Destinos = () => {
 
+    
 return(
     <section>
         <div className={styles.titulo__background}>
