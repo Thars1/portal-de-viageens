@@ -13,7 +13,7 @@ export const viagens = [
     },
     {
         id:3,
-        nome:'Paris',
+        nome:'França',
         imagem:'/imagens/paris.png',
         descricao:'Venha a cidade do romance e amor em paris, um local perfeito para viver um romance',
     },

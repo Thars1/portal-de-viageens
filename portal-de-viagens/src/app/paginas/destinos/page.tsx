@@ -1,5 +1,4 @@
 import CardDestino from "@/app/components/CardDestino";
-import { Viagem } from "@/types/types";
 import {viagens } from "@/lib/viagens";
 import styles from './Destinos.module.css'
 const Destinos = () => {

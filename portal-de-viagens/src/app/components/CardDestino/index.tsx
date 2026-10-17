@@ -1,4 +1,5 @@
 import {Viagem} from '@/types/types'
+import Image from 'next/image';
 import styles from './CardDestino.module.css'
 type Card ={
     viagem :Viagem;
@@ -12,7 +13,8 @@ const CardDestino=({viagem}:Card)=>{
             
             <div  > 
                 <h2 className={styles.card__titulo}>{nome}</h2>
-                <img src={imagem} className={styles.card__img}/>
+                <Image alt={`Imagem da ${nome}`}src={imagem}  width={500}
+      height={500} className={styles.card__img}/>
                 <p className={styles.card__texto}>{descricao}</p>
             </div>
         </div>

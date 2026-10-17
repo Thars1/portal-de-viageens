@@ -10,7 +10,7 @@ const Header=()=>{
 
         <nav className={styles.header__nav}>
           <Link href='/'>Home</Link>
-          <Link href='paginas/destinos'>Destinos</Link>
+          <Link href='/paginas/destinos'>Destinos</Link>
           
         </nav>
         </div>
